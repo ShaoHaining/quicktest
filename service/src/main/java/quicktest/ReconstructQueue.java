@@ -42,7 +42,7 @@ public class ReconstructQueue {
             }
         });
 
-        List<int[]> list = new ArrayList<>();
+        List<int[]> list =new ArrayList<>();
         for(int i=0;i<people.length;i++){
             list.add(people[i][1],people[i]);
         }
